@@ -1,0 +1,41 @@
+git remote -v 查看远程分支
+
+git push origin master 推送到远程分支
+
+git add .\index.html 添加到暂存区
+
+git commit -m '描述'  提交到远程
+
+git status 查看当前状态
+
+git log 查看日志   git reflog 简洁版
+
+
+git add .当前全部修改的页面添加到暂存区
+
+git checkout --index.html 撤销
+
+git reset --hard HEAD~回退到上一个版本
+
+git reset --hard HEAD~3回退到上  第三个版本
+
+git reset --hard 56565ss 切换到哪个版本
+  
+
+git branch 查看分支
+git branch asd 创建了一个本地分支
+
+git checkout asd 切换分支
+
+git push origin asd 推送远程分支
+
+git branch -b asd 创建并切换
+
+git branch -d asd 删除
+
+git merge dev1  和dev1分支合并
+
+git pull origin master 每天工作之前  拉取主分支代码
+git push origin 自己的分支 推送到远程分支
+
+
