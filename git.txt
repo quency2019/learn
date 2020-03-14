@@ -1,3 +1,32 @@
+touch  .gitignore
+git 忽略
+
+*.iml
+.idea
+.ipr
+.iws
+*.diff
+*.patch
+*.bak
+.DS_Store
+node_modules/
+node_modules2/
+.project
+.settings
+npm-debug.log
+.*proj
+.svn/
+*.swp
+*.swo
+*.log
+examples/dist/
+yarn-error.log
+test/unit/coverage
+.vscode
+
+
+
+
 git remote -v 查看远程分支
 
 git push origin master 推送到远程分支
@@ -37,5 +66,3 @@ git merge dev1  和dev1分支合并
 
 git pull origin master 每天工作之前  拉取主分支代码
 git push origin 自己的分支 推送到远程分支
-
-
